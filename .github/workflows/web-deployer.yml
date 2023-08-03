@@ -16,7 +16,7 @@ env:
   EXPORT_FOLDER: build/ # just the folder where the project will be build, not really important
   EXPORT_FILENAME: index.html # export file name
 
-  DEPLOYMENT_BRANCH: main # the name of the branch, will be automatically created if it does not exist
+  DEPLOYMENT_BRANCH: gh-pages # the name of the branch, will be automatically created if it does not exist
 
 jobs:
   export_web:
